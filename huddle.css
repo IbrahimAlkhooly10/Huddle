@@ -7,21 +7,28 @@
     width: auto;
 }
 .huddle{
-    height: 705px;
+    max-height: 705px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 0px 0 0;
+
 }
 .container{
     background-image: url(./images/bg-hero-desktop.svg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      
+    
       /* Needed to position the navbar */
 }
 .logo{
     width: 190px;
 }
 .nav{
-    padding: 55px 0 0 90px;
+    padding: 50px 0 0 90px;
 }
 .button1{
     margin-left: 30px;
@@ -39,7 +46,7 @@
 
 }
 .community{
-    padding: 145px 0 0px 90px;
+    display: inline-block;
 }
 .h11{
     color: #0A262F;
@@ -74,10 +81,4 @@
 .img2{
     width: 650px;
     height: auto;
-}
-.im{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 80px 90px 0 0;
 }
