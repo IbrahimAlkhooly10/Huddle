@@ -42,7 +42,7 @@
     color: #19343B;
     font-weight: 900;
     letter-spacing: 1px;
-    box-shadow: 1px 1px 6px;
+    box-shadow: 1px 1px 9px;
 
 }
 .community{
@@ -81,4 +81,46 @@
 .img2{
     width: 650px;
     height: auto;
+}
+.box{
+    width: 1200px;
+    height: 430px;
+    margin: 180px;
+    margin: 229px 0 0 0;
+    color: #19343B;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 8px;
+    font-family: "Poppins", sans-serif;
+    padding: 150px 30px 150px 90px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.h22{
+    color: #0A232B;
+}
+.p2{
+    color: #B5BDC2;
+    width: 459px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.box-img{
+    width: 390px;
+}
+.buttom3{
+    width: 370px;
+    height: 76px;
+    border-radius: 40px;
+    border: none;
+    background-color: #E750BC;
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-top: 36px;
+    font-size:19px;
 }
