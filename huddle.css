@@ -18,11 +18,7 @@
 }
 .container{
     background-image: url(./images/bg-hero-desktop.svg);
-      background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
-    
-      /* Needed to position the navbar */
 }
 .logo{
     width: 190px;
@@ -43,7 +39,15 @@
     font-weight: 900;
     letter-spacing: 1px;
     box-shadow: 1px 1px 9px;
-
+}
+.button1:hover{
+    opacity: 0.7;
+}
+.button2:hover{
+    opacity: 0.5;
+}
+.buttom3:hover{
+    opacity: 0.5;
 }
 .community{
     display: inline-block;
@@ -135,9 +139,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
-}
-footer{
+    padding-left: 123px;
 }
 .logo-footer{
     width: 250px;
@@ -168,15 +170,34 @@ li{
 .footer-second{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     font-family: "Poppins", sans-serif;
     color: white;
     font-weight: 200;
     letter-spacing: 0.7px;
     width: 400px;
+    position: relative;
+    left: 110px;
+}
+.career{
+    position: relative;
+    left: 80px;
 }
 .about {
     display: flex;
     flex-direction: column;
 }
-.career{
+.fti{
+    position: relative;
+    left: 190px;    
+}
+.fti:hover{
+    color: #E751BE;
+}
+@media all and (max-width:430px) {
+    .container{
+        margin: 0px; 
+        padding: 0px;
+        width: 375px;
+    }
 }
